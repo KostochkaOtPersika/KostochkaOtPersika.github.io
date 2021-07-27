@@ -1,0 +1,305 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 1px;
+    text-align: center;
+}
+a{
+    color: rgba(0, 0, 0, 1);
+    text-decoration: none;
+}
+button{
+    cursor: pointer;
+}
+.all-block{
+    margin-bottom: 200rem;
+}
+@font-face{
+    font-family: "Gilroy Bold";
+    src: url("fonts/Gilroy\ Font/Gilroy-Bold.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Gilroy Medium";
+    src: url("fonts/Gilroy\ Font/Gilroy-Medium.ttf") format("truetype");
+}
+.header{
+    border-bottom: 1px solid rgba(130, 130, 130, 1);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-bottom: 20rem;
+}
+.header a{
+    font-family: "Gilroy Bold";
+    color: rgba(130, 130, 130, 1);
+    font-size: 18rem;
+    line-height: 22.28rem;
+    display: block;
+    width: 100rem;
+    transition-property: all;
+    transition-duration: 0.2s;
+}
+.header a:hover{
+    color: rgba(7, 7, 7, 1);
+    font-size: 20rem;
+    width: 100rem;
+}
+.wrapper-of-all{
+    text-align: center;
+    padding: 2% 10%
+}
+.hero-main h1{
+    font-family: "Gilroy Bold";
+    font-size: 47.34rem;
+    line-height: 58.61rem;
+}
+.hero-main p{
+    font-family: "Gilroy Medium";
+    font-size: 18rem;
+    line-height: 21.83rem;
+}
+.language div{
+    font-family: "Gilroy Bold";
+    font-size: 16rem;
+    line-height: 19.81rem;
+    width: 70px;
+    transition-property: all;
+    transition-duration: 0.2s;
+}
+.language div:hover{
+    font-size: 17rem;
+    cursor: pointer;
+    width: 70px;
+}
+.language div{
+    -webkit-transform: rotate(90deg);
+    transform: rotate(-90deg);
+    text-align: center;
+}
+.hero-main{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 100rem;
+    padding-bottom: 60rem;
+}
+.hero img{
+    width: 100%;
+}   
+h2{
+    font-family: "Gilroy Bold";
+    font-size: 34rem;
+    line-height: 42.09rem;
+    margin-bottom: 20rem;
+    text-align: center;
+}
+p{
+    font-family: "Gilroy Medium";
+    font-size: 18rem;
+    line-height:21.83rem;
+    margin-bottom: 25rem;
+    text-align: center;
+}
+.programs{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 4% 0;
+}
+.program{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    max-height: 100px;
+    align-items: center;
+}
+.program span{
+    color: rgba(130, 130, 130, 1);
+    font-size: 14rem;
+    line-height: 17.33rem;
+}
+.logo{
+    max-width: auto;
+    margin-bottom: 25px;
+}
+.flogo{
+    max-width: 65px;
+    margin-bottom: 25px;
+}
+.transparent{
+    color: transparent;
+}
+.stars{
+    margin-top: 25px;
+}
+.flogo{
+    position: relative;
+    left: 18px;
+}
+.project-wrapper{
+    text-align: center;
+}
+.portfolio-link{
+    transition-property: all;
+    transition-duration: 0.4s;
+}
+.portfolio-link:hover{
+    font-size: 19rem;
+    font-weight: bolder;
+}
+.portfolio a{
+    font-family: "Gilroy Medium";
+    font-size: 18rem;
+    line-height: 21.83rem;
+    margin: 20rem 0 100rem 0;
+    display: block;
+    text-decoration: underline;
+}
+.portfolio{
+    text-align: center;
+}
+.contacts-button{
+    border: none;
+    background-color: rgba(7, 7, 7, 1);
+    color: rgba(255, 255, 255, 1);
+    font-family: "Gilroy Bold";
+    font-size: 18rem;
+    line-height: 22.28rem;
+    text-align: center;
+    padding: 10rem 15rem;
+    border-radius: 30px;
+    margin-bottom: 40rem;
+    transition-property: all;
+    transition-duration: 1s;
+}
+.contacts-button:hover{
+    font-size: 20rem;
+}
+.contacts{
+    text-align: center;
+}
+.socials{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.socials a{
+    margin: 20rem;
+}
+.contacts p{
+    font-family: "Gilroy Medium";
+    font-size: 14rem;
+    line-height: 16.98rem;
+    color: rgba(130, 130, 130, 1);
+    margin-top: 30rem;
+}
+.socials a img{
+    width: 30rem;
+    transition-property: all;
+    transition-duration: 2s;
+}
+.socials a img:hover{
+    position: relative;
+    top: -5rem;
+}
+.wrapper-of-all{
+    text-align: center;
+    width: 100%;
+}
+@media screen and (max-width: 1824px){
+    html{
+        font-size: 1.5px;
+    }
+}
+@media screen and (max-width: 1224px){
+    html{
+        font-size: 1px;
+    }
+}
+@media screen and (max-width: 1024px){
+    html{
+        font-size: 0.9px;
+    }
+}
+@media screen and (max-width: 992px){}
+@media screen and (max-width: 768px){
+    html{
+        font-size: 1.2px;
+    }
+    .wrapper-of-all{
+        text-align: center;
+        width: 100%;
+        padding: 2% 16%
+    }
+    .portfolio img{
+        width: 80%;
+    }
+    .logo{
+        width: 70%;
+    }
+    .flogo{
+        width: 45%;
+    }
+}
+@media screen and (max-width: 576px){
+    .header{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border-top: 1px solid rgba(130, 130, 130, 1);
+        margin-top: 15rem;
+    }
+    .header a{
+        margin: 5rem;
+    }
+    html{
+        font-size: 1.4px;
+    }
+    .programs{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .logo{
+        width: 20%;
+    }
+    .flogo{
+        width: 10%;
+    }
+    .program{
+        margin-bottom: 150rem;
+    }
+    .figma{
+        margin-bottom: 0;
+    }
+}
+@media screen and (max-width: 375px){
+    .hero-main{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .language div{
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+        text-align: center;
+        width: auto;
+    }
+    .language div:hover{
+        width: auto;
+    }
+    .portfolio img{
+        width: 100%;
+    }
+}
+@media screen and (max-width: 320px){
+    .hero-main h1{
+        margin-bottom: 20rem;
+    }
+    .hero-main p{
+        margin-bottom: 20rem;
+    }
+}
